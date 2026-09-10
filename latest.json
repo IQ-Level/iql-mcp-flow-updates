@@ -1,5 +1,5 @@
 {
-    "version": "1.24.0",
-    "notes": "Zmiany od v1.23.1.\r\n\r\n## Nowe\r\n\r\n- **Konektor claude.ai (przeglądarka).** W panelu, obok konfiguracji dla desktopa, jest teraz gotowy do skopiowania adres serwera z tokenem w formacie `Authorization: Bearer`. Konektor claude.ai nie przepuszcza własnych nagłówków, więc ten zapis jest jedynym, jaki tam zadziała.\r\n- **Token przez `Authorization: Bearer`.** Wtyczka przyjmuje token teraz dwiema drogami — dotychczasowym nagłówkiem `X-IQL-Flow-Token` oraz standardowym `Authorization: Bearer`. To ten sam token z panelu; w istniejących klientach nic nie trzeba zmieniać.\r\n\r\n## Poprawki\r\n\r\n- Komunikat o braku uwierzytelnienia (401) mówi wprost o obu nagłówkach, a w rozwiązywaniu problemów jest wpis, co zrobić, gdy konektor claude.ai odrzuca nagłówek („isn't approved”).\r\n\r\n## Instalacja\r\n\r\nPobierz `iql-elementor-mcp-flow-1.24.0.zip` z tego wydania i wgraj przez\r\n**Wtyczki → Dodaj nową → Wyślij wtyczkę**. Nadpisanie działającej instalacji\r\njest bezpieczne — ustawienia, tokeny, ledger i snapshoty siedzą w bazie.",
-    "published": "2026-09-09T10:46:50+00:00"
+    "version": "1.24.1",
+    "notes": "Zmiany od v1.24.0.\n\n## Poprawki\n\n- Szkielet bez martwych kluczy, wag fontu z sufitu i urwanych hide_*\n\n## Instalacja\n\nPobierz `iql-elementor-mcp-flow-1.24.1.zip` z tego wydania i wgraj przez\n**Wtyczki → Dodaj nową → Wyślij wtyczkę**. Nadpisanie działającej instalacji\njest bezpieczne — ustawienia, tokeny, ledger i snapshoty siedzą w bazie.",
+    "published": "2026-09-10T13:40:59+00:00"
 }
